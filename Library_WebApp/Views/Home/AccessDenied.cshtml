@@ -1,0 +1,39 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>403 Forbidden</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700,900" rel="stylesheet">
+    <link href="~/css/404.css" rel="stylesheet" asp-append-version="true" />
+</head>
+
+<body>
+
+	<div id="notfound">
+		<div class="notfound container-fluid">
+			<div class="notfound-404">
+				<h1>403</h1>
+				<h2>Access Denied</h2>
+				<p>
+					Oops! You don't have permission to access this page.
+					@if (ViewBag.ReturnUrl != null)
+					{
+						<br />
+						<span>Url tried to access : @ViewBag.ReturnUrl</span>
+					}
+				</p>
+			</div>
+			<a asp-area="" asp-action="Dashboard" asp-controller="Home">Go to Dashboard</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
