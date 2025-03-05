@@ -1922,7 +1922,10 @@
       },
       "DataEncryption/1.0.0": {
         "runtime": {
-          "DataEncryption.dll": {}
+          "DataEncryption.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

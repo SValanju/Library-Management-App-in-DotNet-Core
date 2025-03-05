@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Published Apps\Library_App\Library_WebAPI</_PublishTargetUrl>
-    <History>True|2024-03-30T06:59:10.3922882Z;False|2024-03-30T12:29:03.6016444+05:30;True|2024-03-30T11:51:45.2520307+05:30;False|2024-03-30T11:44:41.5491026+05:30;True|2024-03-29T02:43:15.0754901+05:30;True|2024-03-28T23:55:40.3737355+05:30;False|2024-03-28T23:55:26.3824059+05:30;True|2024-03-28T23:15:36.6597988+05:30;False|2024-03-28T23:15:29.9001814+05:30;True|2024-03-27T19:59:37.9474683+05:30;False|2024-03-27T19:59:30.2699800+05:30;True|2024-03-26T22:24:14.7342333+05:30;False|2024-03-26T22:24:06.0259578+05:30;True|2024-03-26T19:51:10.0761180+05:30;False|2024-03-26T19:49:55.9833897+05:30;True|2024-03-26T19:32:37.8672631+05:30;True|2024-03-24T16:38:44.2123910+05:30;</History>
+    <_PublishTargetUrl>D:\Published Apps\LibraryApp\Library_API</_PublishTargetUrl>
+    <History>True|2025-03-05T17:49:35.5816430Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

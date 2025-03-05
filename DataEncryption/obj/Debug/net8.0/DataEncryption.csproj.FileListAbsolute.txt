@@ -9,3 +9,15 @@ D:\Projects\.Net Projects\LibraryManagement_DotNet_Core\DataEncryption\obj\Debug
 D:\Projects\.Net Projects\LibraryManagement_DotNet_Core\DataEncryption\obj\Debug\net8.0\refint\DataEncryption.dll
 D:\Projects\.Net Projects\LibraryManagement_DotNet_Core\DataEncryption\obj\Debug\net8.0\DataEncryption.pdb
 D:\Projects\.Net Projects\LibraryManagement_DotNet_Core\DataEncryption\obj\Debug\net8.0\ref\DataEncryption.dll
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\bin\Debug\net8.0\DataEncryption.deps.json
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\bin\Debug\net8.0\DataEncryption.dll
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\bin\Debug\net8.0\DataEncryption.pdb
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.AssemblyInfoInputs.cache
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.AssemblyInfo.cs
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.csproj.CoreCompileInputs.cache
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.sourcelink.json
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.dll
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\refint\DataEncryption.dll
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\DataEncryption.pdb
+D:\Projects\.Net Projects\Library-Management-App-in-DotNet-Core\DataEncryption\obj\Debug\net8.0\ref\DataEncryption.dll

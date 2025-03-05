@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Library_WebAPI.Models;
 
-public partial class DotNetCoreWebApiContext : DbContext
+public partial class DefaultContext : DbContext
 {
-    public DotNetCoreWebApiContext() { }
+    public DefaultContext() { }
 
-    public DotNetCoreWebApiContext(DbContextOptions<DotNetCoreWebApiContext> options)
+    public DefaultContext(DbContextOptions<DefaultContext> options)
         : base(options)
     {
     }

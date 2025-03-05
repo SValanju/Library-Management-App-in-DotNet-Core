@@ -13,10 +13,10 @@ namespace Library_WebAPI.Services.AuthService
 {
     public class AuthService : IAuthService
     {
-        private readonly DotNetCoreWebApiContext _context;
+        private readonly DefaultContext _context;
         private readonly IMapper mapper;
 
-        public AuthService(DotNetCoreWebApiContext context, IMapper mapper)
+        public AuthService(DefaultContext context, IMapper mapper)
         {
             _context = context;
             this.mapper = mapper;

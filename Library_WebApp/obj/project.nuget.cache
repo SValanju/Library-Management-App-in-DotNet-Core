@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XrxlrmBKh+HfUBAo9i9DOOgAMe8wt1pubz+tUpv/JUhummdIca3D8W49VWpUd7uiyG5Ckr1oUS/oK8qms2P61g==",
+  "dgSpecHash": "94OCsterZGU=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\.Net Projects\\LibraryManagement_DotNet_Core\\Library_WebApp\\Library_WebApp.csproj",
+  "projectFilePath": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\Library_WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samee\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\samee\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

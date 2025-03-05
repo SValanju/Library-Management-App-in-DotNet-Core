@@ -15,7 +15,7 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add Application DB Context
-builder.Services.AddDbContext<DotNetCoreWebApiContext>(options =>
+builder.Services.AddDbContext<DefaultContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });

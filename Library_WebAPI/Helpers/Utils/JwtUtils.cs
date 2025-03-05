@@ -57,7 +57,7 @@ namespace Library_WebAPI.Helpers.Utils
                 // Get claims
                 int userId = int.Parse(validatedJWT.Claims.First(claim => claim.Type == "user_id").Value);
 
-                using (DotNetCoreWebApiContext dbContext = new DotNetCoreWebApiContext())
+                using (DefaultContext dbContext = new DefaultContext())
                 {
                     TblUser? user = dbContext.TblUsers.Find(userId);
 

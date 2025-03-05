@@ -13,10 +13,10 @@ namespace Library_WebAPI.Services.UserService
 {
     public class UserService : IUserService
     {
-        private readonly DotNetCoreWebApiContext dbContext;
+        private readonly DefaultContext dbContext;
         private readonly IMapper mapper;
 
-        public UserService(DotNetCoreWebApiContext dbContext, IMapper mapper)
+        public UserService(DefaultContext dbContext, IMapper mapper)
         {
             this.dbContext = dbContext;
             this.mapper = mapper;

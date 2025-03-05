@@ -12,10 +12,10 @@ namespace Library_WebAPI.Services.BooksService
 {
     public class BookService : IBookService
     {
-        private readonly DotNetCoreWebApiContext dbContext;
+        private readonly DefaultContext dbContext;
         private readonly IMapper mapper;
 
-        public BookService(IMapper mapper, DotNetCoreWebApiContext dbContext)
+        public BookService(IMapper mapper, DefaultContext dbContext)
         {
             this.mapper = mapper;
             this.dbContext = dbContext;

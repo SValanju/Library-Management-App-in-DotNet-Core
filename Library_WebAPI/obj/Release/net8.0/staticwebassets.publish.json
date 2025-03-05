@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "VzItV2ZjLlO0CFQdlleVIZxefgWKKkOjKNplp6zN3fA=",
+  "Hash": "aecJ+Q6HLhXHztOSZr56h5EAhM4RB7wnEwBOhJPDLZI=",
   "Source": "Library_WebAPI",
   "BasePath": "_content/Library_WebAPI",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
