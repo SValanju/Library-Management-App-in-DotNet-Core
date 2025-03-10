@@ -1,10 +1,7 @@
-﻿using Azure.Core;
-using DataEncryption;
-using Library_WebAPI.Services.BooksService;
+﻿using DataEncryption;
 using Library_WebApp.Models.Books;
 using Library_WebApp.Models.User;
 using Library_WebApp.Services.ConsumeAPI;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

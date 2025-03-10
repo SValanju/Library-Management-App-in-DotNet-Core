@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "mzgL76BX4gbX+98kUl3Ht8xInOqdWesR99tJ7F3DCFM=",
+  "Hash": "kZEadVLbCrXv5upwkfhnaz8s/cm6HeMyTZ4nhXOhPvo=",
   "Source": "Library_WebApp",
   "BasePath": "_content/Library_WebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebAPI\\Library_WebAPI.csproj",
-      "Version": 2,
-      "Source": "Library_WebAPI",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "Library_WebApp\\wwwroot",
