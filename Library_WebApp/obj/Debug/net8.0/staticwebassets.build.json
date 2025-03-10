@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "7GrKKDGjMljowOo1IsTU5tlH0DKfqsomt/PXZyDib14=",
+  "Hash": "AowP6FOE+Zv156AZUqsmXqQZEoFpNfyHRrArSJ/LZSw=",
   "Source": "Library_WebApp",
   "BasePath": "_content/Library_WebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebAPI\\Library_WebAPI.csproj",
-      "Version": 2,
-      "Source": "Library_WebAPI",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "Library_WebApp\\wwwroot",
@@ -64,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cz2ituv0yc",
-      "Integrity": "mEQIA6vx4ltgZv6jf2p7sKmCNlWOHwqAKCBujFR8UDY=",
+      "Fingerprint": "7iz9e9zdv0",
+      "Integrity": "AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -7211,6 +7199,51 @@
       ]
     },
     {
+      "Route": "css/site.7iz9e9zdv0.css",
+      "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 18:34:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7iz9e9zdv0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -7221,7 +7254,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "331"
+          "Value": "522"
         },
         {
           "Name": "Content-Type",
@@ -7229,11 +7262,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mEQIA6vx4ltgZv6jf2p7sKmCNlWOHwqAKCBujFR8UDY=\""
+          "Value": "\"AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Mar 2024 15:17:43 GMT"
+          "Value": "Mon, 10 Mar 2025 18:34:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7243,52 +7276,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mEQIA6vx4ltgZv6jf2p7sKmCNlWOHwqAKCBujFR8UDY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.cz2ituv0yc.css",
-      "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "331"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mEQIA6vx4ltgZv6jf2p7sKmCNlWOHwqAKCBujFR8UDY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 29 Mar 2024 15:17:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cz2ituv0yc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mEQIA6vx4ltgZv6jf2p7sKmCNlWOHwqAKCBujFR8UDY="
+          "Value": "sha256-AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA="
         }
       ]
     },

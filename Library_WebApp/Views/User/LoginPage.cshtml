@@ -5,45 +5,51 @@
     ViewData["Title"] = "Login Page";
 }
 
-<div class="centerDiv w-75 rounded-3 border border-3 py-5">
-    <h1 class="text-center mb-5">Library Management App</h1>
-    <div class="row align-items-center">
-        <div class="col-md-6 my-5">
-            <img src="~/images/library-management-app.png" class="img-fluid" />
-        </div>
-        <div class="col-md-6 my-5">
-            <div class="card w-75 mx-auto">
-                <div class="card-header bg-transparent border-0 pb-0 d-flex align-items-center justify-content-center">
-                    <img src="~/Images/login.png" alt="Login Icon" class="w-25" />
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 bg-white py-5">
+            <h1 class="text-center mb-5 monomakh-regular">Library Management App</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 my-5">
+                    <img src="~/images/library-management-app.png" class="img-fluid" />
                 </div>
-                <div class="card-body">
-                    @if (TempData["loginErrors"] != null)
-                    {
-                        <div class="alert alert-danger" role="alert">
-                            <p class="mb-0 errMessage">@Html.Raw(TempData["loginErrors"].ToString())</p>
+                <div class="col-md-6 my-5 px-5">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0 pb-0 d-flex align-items-center justify-content-center">
+                            <img src="~/Images/login.png" alt="Login Icon" class="w-25" />
                         </div>
-                    }
-                    <form asp-action="Authenticate" asp-antiforgery="true" id="loginForm">
-                        <div asp-validation-summary="ModelOnly" class="text-danger d-none" id="loginErrors"></div>
-                        <div class="mb-2">
-                            <label asp-for="user_name" class="form-label"></label>
-                            <input asp-for="user_name" class="form-control form-control-sm" />
-                            <span asp-validation-for="user_name" class="text-danger errMessage"></span>
+                        <div class="card-body">
+                            @if (TempData["loginErrors"] != null)
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    <p class="mb-0 errMessage">@Html.Raw(TempData["loginErrors"].ToString())</p>
+                                </div>
+                            }
+                            <form asp-action="Authenticate" asp-antiforgery="true" id="loginForm">
+                                <div asp-validation-summary="ModelOnly" class="text-danger d-none" id="loginErrors"></div>
+                                <div class="mb-2">
+                                    <label asp-for="user_name" class="form-label"></label>
+                                    <input asp-for="user_name" class="form-control form-control-sm" />
+                                    <span asp-validation-for="user_name" class="text-danger errMessage"></span>
+                                </div>
+                                <div class="mb-4">
+                                    <label asp-for="password" class="form-label"></label>
+                                    <input asp-for="password" class="form-control form-control-sm" />
+                                    <span asp-validation-for="password" class="text-danger errMessage"></span>
+                                    <input type="hidden" id="isPasswordEncrypted" />
+                                </div>
+                                <div class="d-flex justify-content-around">
+                                    <button type="submit" class="btn btn-primary" onclick="onLogin()">Login<i class="fa-solid fa-circle-chevron-right ms-2"></i></button>
+                                    <a asp-action="Register" class="btn btn-light border-secondary">Register<i class="fa-solid fa-user-plus ms-2"></i></a>
+                                </div>
+                            </form>
                         </div>
-                        <div class="mb-2">
-                            <label asp-for="password" class="form-label"></label>
-                            <input asp-for="password" class="form-control form-control-sm" />
-                            <span asp-validation-for="password" class="text-danger errMessage"></span>
-                            <input type="hidden" id="isPasswordEncrypted" />
-                        </div>
-                        <div class="d-flex justify-content-around">
-                            <button type="submit" class="btn btn-primary" onclick="onLogin()">Login<i class="fa-solid fa-circle-chevron-right ms-2"></i></button>
-                            <a asp-action="Register" class="btn btn-light">Register<i class="fa-solid fa-user-plus ms-2"></i></a>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-1"></div>
     </div>
 </div>
 

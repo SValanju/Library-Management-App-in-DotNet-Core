@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #bbd4ea;
+}
+
+.centerDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+}
+
+.errMessage {
+    font-size: .8rem;
+}
+
+.bg-custom-primary {
+    background-color: var(--primary-color);
+}
+
+.z-3 {
+    z-index: 3;
+}

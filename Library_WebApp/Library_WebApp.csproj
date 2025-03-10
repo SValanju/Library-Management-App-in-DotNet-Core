@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataEncryption\DataEncryption.csproj" />
-    <ProjectReference Include="..\Library_WebAPI\Library_WebAPI.csproj" />
   </ItemGroup>
 
 </Project>
