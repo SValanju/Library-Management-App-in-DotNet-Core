@@ -17,12 +17,11 @@
     z-index: 3;
 }
 
-.monomakh-regular {
+.fs-monomakh-regular {
     font-family: "Monomakh", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-
 
 * {
     font-family: "Iansui", cursive;

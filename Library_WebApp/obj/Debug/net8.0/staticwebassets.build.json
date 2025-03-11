@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AowP6FOE+Zv156AZUqsmXqQZEoFpNfyHRrArSJ/LZSw=",
+  "Hash": "XDWJ7WudzmU/4vBW41QqOoEsqD2qfSYFQ7G7Hx5N/Nw=",
   "Source": "Library_WebApp",
   "BasePath": "_content/Library_WebApp",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7iz9e9zdv0",
-      "Integrity": "AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=",
+      "Fingerprint": "kxdl7mitt9",
+      "Integrity": "OOdVwbmKVtu9Y2vA0+h1E+xF0Y1UQWGDkbELV5pFWSA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -7199,51 +7199,6 @@
       ]
     },
     {
-      "Route": "css/site.7iz9e9zdv0.css",
-      "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "522"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 18:34:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7iz9e9zdv0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -7254,7 +7209,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "522"
+          "Value": "523"
         },
         {
           "Name": "Content-Type",
@@ -7262,11 +7217,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA=\""
+          "Value": "\"OOdVwbmKVtu9Y2vA0+h1E+xF0Y1UQWGDkbELV5pFWSA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 18:34:06 GMT"
+          "Value": "Mon, 10 Mar 2025 18:55:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7276,7 +7231,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AeLa+y29KwGCdIstdWMm4aumwb6kazV4eiu9C7kWgAA="
+          "Value": "sha256-OOdVwbmKVtu9Y2vA0+h1E+xF0Y1UQWGDkbELV5pFWSA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.kxdl7mitt9.css",
+      "AssetFile": "D:\\Projects\\.Net Projects\\Library-Management-App-in-DotNet-Core\\Library_WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOdVwbmKVtu9Y2vA0+h1E+xF0Y1UQWGDkbELV5pFWSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 18:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kxdl7mitt9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOdVwbmKVtu9Y2vA0+h1E+xF0Y1UQWGDkbELV5pFWSA="
         }
       ]
     },
