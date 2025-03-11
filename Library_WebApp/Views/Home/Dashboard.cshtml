@@ -5,26 +5,27 @@
 }
 
 <div class="py-5">
-    <h3>Welcome, @User.Identity.Name!</h3>
-    <h5 class="mb-4">Modules: </h5>
+    <h3 class="fw-bold mb-4">Welcome, @User.Identity.Name!</h3>
     <div class="row">
         @if (Model != null && Model.Any())
         {
-            foreach(var item in Model)
+            foreach (var item in Model)
             {
                 <div class="col-md-4">
-                    <div class="card h-100 bg-custom-primary d-flex align-items-center">
-                        <img src="~/Images/Modules/@item.Item1" class="@item.Item4" alt="@item.Item3">
-                        <div class="card-footer">
-                            <a class="h6 text-dark" asp-area="" asp-action="@item.Item2" asp-controller="@item.Item3" onclick="loader(true)">@item.Item3 Management</a>
+                    <a class="h6 text-dark" asp-area="" asp-action="@item.Item2" asp-controller="@item.Item3" onclick="loader(true)">
+                        <div class="card h-100 bg-custom-primary d-flex align-items-center">
+                            <img src="~/Images/Modules/@item.Item1" class="@item.Item4" alt="@item.Item3">
+                            <div class="card-footer">
+                                @item.Item3
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             }
         }
         else
         {
             <h6 class="text-danger">You don't have rights to access any module. Kindly contact the administrator!</h6>
-        }       
+        }
     </div>
 </div>

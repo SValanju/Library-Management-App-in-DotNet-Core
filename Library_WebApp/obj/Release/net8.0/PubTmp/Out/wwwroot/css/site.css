@@ -1,13 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&family=Monomakh&display=swap');
+
 :root {
     --primary-color: #bbd4ea;
-}
-
-.centerDiv {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: #ffffff;
+    --bs-gutter-x: 1.5rem;
 }
 
 .errMessage {
@@ -20,4 +15,16 @@
 
 .z-3 {
     z-index: 3;
+}
+
+.monomakh-regular {
+    font-family: "Monomakh", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Iansui", cursive;
+    font-weight: 600;
+    font-style: normal;
 }
